@@ -1,0 +1,53 @@
+# Node modules
+node_modules/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Runtime data
+pids/
+*.pid
+*.pid.lock
+
+# Coverage directory used by testing tools like jest
+coverage/
+
+# dotenv environment variables file
+.env
+
+# Temporary files and folders
+tmp/
+temp/
+
+# Build output
+dist/
+build/
+
+# IDE-specific files
+.vscode/
+.idea/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Optional lock files
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Debugger files
+*.swp
+*.swo
+
+# Docker files
+docker-compose.override.yml
+.dockerignore
+
+# Miscellaneous
+*.bak
+*.old
